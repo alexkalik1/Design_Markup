@@ -502,6 +502,10 @@ button:hover {
   box-shadow: 3px 3px 1px black;
 }
 
+button:focus {
+  outline: 0;
+}
+
 #sport_search input {
   border: 0;
 }
