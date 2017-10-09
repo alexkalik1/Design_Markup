@@ -96,7 +96,7 @@ div#float_left {
 }
 
 #menu span {
-  color: white;
+  color: white !important;
 }
 
 #menu ul {
@@ -351,7 +351,7 @@ h2 {
 
 #empty {
   height: 50px;
-  background-color: gray;
+  background-color: #D8D8D8;
 }
 
 #stories p .author {
@@ -491,4 +491,31 @@ h2 {
   position: absolute;
   left: 460px;
   top: 80px;
+}
+
+button {
+  background-color: #770091;
+  border: 0;
+}
+
+button:hover {
+  box-shadow: 3px 3px 1px black;
+}
+
+#sport_search input {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+a img:hover {
+  box-shadow: 0px 0px 5px 5px grey;
 }
